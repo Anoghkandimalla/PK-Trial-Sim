@@ -1,5 +1,5 @@
- PK Trial Simulator
-wh
+# PK Trial Simulator
+![Drug concentration curves](curves.png)
 ## The model
 The body is three connected compartments: plasma (blood), tumor, and heart.
 The drug is dosed into plasma, distributes to the tumor and heart, flows back,
@@ -17,11 +17,11 @@ The share of patients meeting both is the predicted probability of success.
 
 ## Run it
     pip install numpy scipy matplotlib
-    python simulate.py
+    python trial_sim.py
 
 ## Output
 - Probability of success printed to the console
-- concentration_curves.png: drug levels over 48 hours for a typical patient
+- curves.png: drug levels over 48 hours for a typical patient
 
 ## Notes
 Parameters are illustrative, not fitted to a real drug.
